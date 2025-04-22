@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Markitdown",
+    "version": "1.0.7",
+    "description": "Convert web pages to Markdown format",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "clipboardWrite",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {}
+}
