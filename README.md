@@ -1,4 +1,4 @@
-# Browser Markitdown
+# Clipdown
 
 A browser extension that converts web pages to Markdown format.
 
@@ -33,27 +33,11 @@ npm run build:prod
 
 ### Loading the Extension
 
-1. Open Edge browser
-2. Navigate to `edge://extensions`
+1. Open your browser
+2. Navigate to extension page
 3. Enable "Developer mode"
 4. Click "Load unpacked"
 5. Select the `public` directory
-
-### Project Structure
-
-```
-browser_markitdown/
-├── src/
-│   ├── background/
-│   │   └── background.ts     # Background script
-│   ├── content/
-│   │   └── content.ts        # Content script
-│   └── manifest/
-│       └── manifest.json     # Extension manifest
-├── public/                   # Built extension files
-├── package.json
-└── webpack.config.js
-```
 
 ## Usage
 

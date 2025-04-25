@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Browser Markitdown",
-    "version": "1.0.7",
-    "description": "Convert web pages to Markdown format",
+    "name": "Clipdown",
+    "version": "1.0.0",
+    "description": "Convert web pages to Markdown format and store it in the clipboard.",
     "permissions": [
         "activeTab",
         "scripting",

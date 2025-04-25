@@ -1,6 +1,6 @@
 {
-    "name": "browser-markitdown",
-    "version": "1.0.7",
+    "name": "clipdown",
+    "version": "1.0.0",
     "description": "A browser extension that converts HTML to Markdown",
     "scripts": {
         "build": "webpack",
