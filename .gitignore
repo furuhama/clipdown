@@ -1,4 +1,8 @@
 /node_modules
 /dist
+/build
+
+# Generated files
 /public/*.js
 /public/*.js.map
+!/public/icons/

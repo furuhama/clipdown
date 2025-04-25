@@ -11,12 +11,12 @@
         "turndown": "^7.1.2"
     },
     "devDependencies": {
-        "typescript": "^5.0.0",
-        "webpack": "^5.0.0",
-        "webpack-cli": "^5.0.0",
         "@types/chrome": "^0.0.254",
+        "@types/node": "^20.0.0",
         "@types/turndown": "^5.0.4",
         "ts-loader": "^9.0.0",
-        "@types/node": "^20.0.0"
+        "typescript": "^5.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^5.0.0"
     }
 }
